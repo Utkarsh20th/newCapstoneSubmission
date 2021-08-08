@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 220.668 s <<< FAILURE! - in TestSuite
+ViewProducts(Package_Medicare.Medicare_ViewProducts)  Time elapsed: 0.708 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [ViewProducts] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+About(Package_Medicare.Medicare_About)  Time elapsed: 0.716 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [About] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+Contact(Package_Medicare.Medicare_Contact)  Time elapsed: 0.72 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [Contact] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+Homepage(Package_Medicare.Medicare_Homepage)  Time elapsed: 0.732 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [Homepage] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+Login(Package_Medicare.Medicare_Login)  Time elapsed: 0.74 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [Login] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+adminLogin(Package_Medicare.Medicare_adminLogin)  Time elapsed: 0.746 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [adminLogin] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+scrollHomepage(Package_Medicare.Medicare_scrollHomepage)  Time elapsed: 0.751 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [scrollHomepage] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+
+PlaceOrder(Package_Medicare.Medicare_PlaceOrder)  Time elapsed: 0.757 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [PlaceOrder] with [interface org.openqa.selenium.WebDriver].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+

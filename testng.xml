@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Package_Medicare.Medicare_ViewProducts"/>
+      <class name="Package_Medicare.Medicare_Homepage"/>
+      <class name="Package_Medicare.Medicare_Driver"/>
+      <class name="Package_Medicare.Medicare_About"/>
+      <class name="Capstone.Project.Capstone.Medicare.AppTest"/>
+      <class name="Package_Medicare.Medicare_Contact"/>
+      <class name="Package_Medicare.Medicare_Login"/>
+      <class name="Package_Medicare.Medicare_adminLogin"/>
+      <class name="Package_Medicare.Medicare_scrollHomepage"/>
+      <class name="Package_Medicare.Medicare_PlaceOrder"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

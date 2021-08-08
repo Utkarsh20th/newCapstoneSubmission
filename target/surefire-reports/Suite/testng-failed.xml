@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="Package_Medicare.Medicare_scrollHomepage">
+        <methods>
+          <include name="scrollHomepage"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_scrollHomepage -->
+      <class name="Package_Medicare.Medicare_Contact">
+        <methods>
+          <include name="Contact"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_Contact -->
+      <class name="Package_Medicare.Medicare_About">
+        <methods>
+          <include name="About"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_About -->
+      <class name="Package_Medicare.Medicare_Homepage">
+        <methods>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_Homepage -->
+      <class name="Package_Medicare.Medicare_ViewProducts">
+        <methods>
+          <include name="ViewProducts"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_ViewProducts -->
+      <class name="Package_Medicare.Medicare_Login">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_Login -->
+      <class name="Package_Medicare.Medicare_PlaceOrder">
+        <methods>
+          <include name="PlaceOrder"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_PlaceOrder -->
+      <class name="Package_Medicare.Medicare_adminLogin">
+        <methods>
+          <include name="adminLogin"/>
+        </methods>
+      </class> <!-- Package_Medicare.Medicare_adminLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
